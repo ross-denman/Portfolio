@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Header */
+  
+#header-container{
+    background-color: #0a193d;
+    color: white !important;
+    padding-top: 10px;
+    margin: 10px;      
+}
+
+#header-row img{
+    max-width: 70%;
+    height: auto;
+    display: block;
+    padding-left: 30px;
+}
+  
+#header-row a{
+    background-color:white !important;
+    color: #0a193d !important;
+    border: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#header-row h2{
+    padding: 20px;
+    text-align: center;
+}
+
+#header-col1{
+    padding-left: 20px;
+}
+
+#header-col2{
+    opacity: .65;
+    padding: 2rem;
+}
+
+/* Banner Styling */
+#banner-row{
+    background-color: white !important;
+    padding: 10px;
+}
+
+/* About */
+#about-container{
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+
+#about h2{
+    color: white !important;
+	padding: 20px;
+}
+
+#about-col{
+    padding: 15px;
+    text-align: center;
+    border-right: 2px gray solid;
+    border-left: 2px gray solid;
+}
+
+.skills{
+  padding: 10px;
+}
+
+#skills-container{
+    background-color: white;
+}
+#skills h2{
+    color: white !important;
+    padding: 20px;
+}
+
+#skills-col{
+    text-align: center;
+    color: white !important;
+    background-color: #0a193d;
+    border: 2px white inset;
+}
+
+.progress{
+  padding: 1px;
+} 
+
+/* Projects */
+#projects-container{
+    background-color: white;
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+#projects h2{
+    color: white !important;
+	padding: 20px;
+}
+
+#projects-col1 ul li{
+    padding-top: 15px; 
+}
+
+#projects-col2{
+    text-align: center;
+    padding: 15px;
+}
+
+/* Contact */
+
+#contact h1{
+    color: white !important;
+	padding: 20px;
+}
+
+#social-row{
+    background-color: white !important;
+}
+
+/* Font Awesome */
+.far, .fab, .fas {
+    padding: 20px;
+    font-size: 3em;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: #212529;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  /* Footer */
+  #footer{
+      padding: 5px;
+      color: white!important;
+  }
